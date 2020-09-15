@@ -1,6 +1,6 @@
 import allMeta from "../../dist/meta";
 
-const codes = "ABCDEFGHIJKLMNOPRSTUVWXYZabcdefghijklmnopqrstuvxyz";
+const codes = "ABCDEFGHIJKLMNOPRSTUVWXYZabcdefghijklmnopqrstuvxyz0123456789";
 
 export const newCode = () => {
   const usedCodes = Object.values(allMeta)
